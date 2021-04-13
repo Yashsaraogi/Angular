@@ -20,18 +20,17 @@ h1{
     width: 240px;
     height: 100vh;
     overflow: auto;
-    
+  
 }
 .appcard{
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: auto;
-    width: 1200px;
 }
-.body-content {
+.body-content{
     display: flex;
-    flex-direction: column;
+    flex-direction : column;
     flex: 1 1 auto;
 }
 .cards{
