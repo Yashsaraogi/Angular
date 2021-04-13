@@ -8,15 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { CardComponent } from './mydoc/card/card.component';
 import { NavComponent } from './mydoc/nav/nav.component';
-import { SidenavComponent } from './mydoc/sidenav/sidenav.component';
 import {MatListModule} from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
     
     CardComponent,
-         NavComponent,
-         SidenavComponent
+         NavComponent
+        
   ],
   imports: [
     BrowserModule,

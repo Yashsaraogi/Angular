@@ -22,3 +22,51 @@
     height: 156px;
   }
   
+.sections2{
+display: flex;
+flex-direction: column; 
+flex: 1fr 4fr;
+flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; 
+}
+ .body-content{
+    display: flex;
+    flex-direction : column;
+    flex: 1 1 auto;
+
+} 
+/* div{
+  display: block;
+} */
+#sidenav{
+ 
+  position: sticky;
+  top: 0;
+  width: 240px;
+  height: 100vh;
+  overflow: auto;
+
+}
+.appcard{
+     display: inline-block;
+     /* flex-direction: column; */
+    /* align-items: center; */
+
+}
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.summary{
+    padding: 25px 40px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+
+}

@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   constructor() { }
+  
+  public typesOfShoes : string[] = ['Autocomplete', 'Badge', 'Bottom Sheet', 'Button', 'Button Toggle','Card','CheckBox','Chip','Datepicker','Dialog','Divider','Grid List','Icon','input','List','Menu','Progress bar','Progress spinner','Radio button','Ripple','Select','side Nav'];
 
 
-
-
- data=[
+  data=[
    
     {
       name:"Badge",
@@ -38,6 +38,7 @@ export class CardComponent implements OnInit {
 
 
   ]
+  
   
 
 

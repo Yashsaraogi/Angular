@@ -8,43 +8,24 @@ h1{
     justify-content: center;
     color: white;
 }
-.secction2{
+/* .secction2{
     display: flex;
-    flex: 1;
-    flex-direction: column;
+    /* flex: 1; */
+    /* flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%;
+} */ 
+footer{
+height: 100px;
+background-color: #3f51b5;
+
 }
-#sidenav{
-    width: 240px;
-    height: 100vh;
-    overflow: auto;
-  
-}
-.appcard{
+.foot1{
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    overflow: auto;
-}
-.body-content{
-    display: flex;
-    flex-direction : column;
-    flex: 1 1 auto;
-}
-.cards{
-
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    justify-content: center;
-}
-.summary{
-    padding: 25px 40px 0;
-    font-size: 18px;
-    line-height: 1.5;
-    display: flex;
-    justify-content: center;
-
+    align-self: flex-end;
+    text-align: center;
+ padding: 10px 25px;
 }
