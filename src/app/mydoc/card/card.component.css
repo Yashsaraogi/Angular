@@ -3,9 +3,22 @@
     margin: 20px;
     vertical-align: top;
     width: 280px;
+    z-index: -1;
   }
   
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   }
+  #header{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+  img {
+    height: 156px;
+  }
+  
