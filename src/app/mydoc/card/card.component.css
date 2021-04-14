@@ -24,15 +24,15 @@
   
 .sections2{
 display: flex;
-flex-direction: column; 
-flex: 1fr 4fr;
+flex-direction: row; 
+flex: 1 ;
 flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%; 
 }
  .body-content{
     display: flex;
-    flex-direction : column;
+    flex-direction : row;
     flex: 1 1 auto;
 
 } 
@@ -43,16 +43,17 @@ flex-grow: 1;
  
   position: sticky;
   top: 0;
-  width: 240px;
+  width: 980px; 
   height: 100vh;
   overflow: auto;
 
 }
 .appcard{
-     display: inline-block;
-     /* flex-direction: column; */
-    /* align-items: center; */
-
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+  /* top: 0px;
+  position: absolute; */
 }
 
 .cards{
